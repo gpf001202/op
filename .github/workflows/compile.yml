@@ -16,7 +16,7 @@ on:
     branches:
       - main
     paths:
-      - 'build/Mortal_source/start-up/start'
+      - 'build/qinian-lede-xiaomi-3pro/start-up/start'
 
 env:
   Github: https://github.com/${{github.repository}}
@@ -42,7 +42,7 @@ jobs:
       matrix:
         target: [qinian-lede-xiaomi-3pro]
         
-        # [Lede_source,Lienol_source,Mortal_source,Tianling_source,openwrt_amlogic,qinian-mt-xiaomi-3pro,qinian-lede-xiaomi-3pro]
+        # [Lede_source,Lienol_source,Mortal_source,Tianling_source,openwrt_amlogic]
 
     steps:
     - name: 准备结束
