@@ -57,7 +57,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [qinian-mt-xiaomi-3pro]
+        target: [qinian-lede-xiaomi-3pro]
 
         # [Lede_source,Lienol_source,Mortal_source,Tianling_source,openwrt_amlogic,qinian-mt-xiaomi-3pro]
 
